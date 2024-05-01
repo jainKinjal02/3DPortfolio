@@ -25,10 +25,21 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import wolken from "./company/wolken.png";
+import infosys from "./company/infosys.jpeg"
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import crownClothing from "./crownClothing.png";
+import forkify from "./forkify.png";
+import mapty from "./mapty.png";
+import hiThere from "./hiThere.png";
+import littleLemon from "./littleLemon.png"
+import angular from './tech/angular.png';
+import ionic from './tech/ionic.png';
+import bitbucket from './tech/bitbucket.png';
+import twitter_1 from './twitter-1.png'
+import twitter_2 from './twitter-2.png'
+import twitter_3 from './twitter-3.png'
+
 
 export {
   logo,
@@ -56,7 +67,17 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  wolken,
+  infosys,
+  crownClothing,
+  forkify,
+  hiThere,
+  mapty,
+  littleLemon,
+  angular,
+  ionic,
+  bitbucket,
+  twitter_1,
+  twitter_2,
+  twitter_3
 };

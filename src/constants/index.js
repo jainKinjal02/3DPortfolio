@@ -11,18 +11,24 @@ import {
     redux,
     tailwind,
     nodejs,
-    mongodb,
     git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+  
+    wolken,
+    infosys,
+
+    mapty,
+    forkify,
+    hiThere,
+    littleLemon,
+    crownClothing,
+
     threejs,
+    bitbucket,
+    ionic,
+    angular,
+    twitter_1,
+    twitter_2,
+    twitter_3
   } from "../assets";
   
   export const navLinks = [
@@ -46,15 +52,15 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "React Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Angular Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Ionic Developer",
       icon: creator,
     },
   ];
@@ -93,78 +99,55 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "Angular",
+      icon: angular,
     },
     {
       name: "Three JS",
       icon: threejs,
     },
     {
+      name: "Ionic",
+      icon: ionic,
+    },
+    {
       name: "git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
+      name: "Bitbucket",
+      icon: bitbucket,
     },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Senior Associate UI Developer",
+      company_name: "Wolken",
+      icon: wolken,
+      iconBg: "#ffffff",
+      date: "November 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining web applications using React.js, Angular and other related technologies.",
+        "Implemented the UI of a subrouter configuration, offering seamless customization option",
+        "Spearheaded the development of a mobile app complementing Wolken’s ITSM web application",
+        "Implemented Okta and Azure authentication for Wolken’s mobile app",
+        "Implemented native device features like push notifications, deep linking, in app browser, file system using Capacitor",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "Senior Systems Engineer",
+      company_name: "Infosys",
+      icon: infosys,
+      iconBg: "#ffffff",
+      date: "October 2019 - October 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Spearheaded the re-development of the UI of Enrollment module for LAUSD’s student information system, leveraging a responsive and resilient module",
+        "Developed an Immunization dashboard for LAUSD to monitor student COVID-19 vaccination info",
+        "Implemented a dashboard for LAUSD to monitor summer schools admissions for independently charter schools",
+        "Built the UI for a real state single page application, implemented features like user search, filter, category component, wishlisting properties"
       ],
     },
   ];
@@ -176,7 +159,7 @@ import {
       name: "Sara Lee",
       designation: "CFO",
       company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      image: twitter_1,
     },
     {
       testimonial:
@@ -184,7 +167,7 @@ import {
       name: "Chris Brown",
       designation: "COO",
       company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      image: twitter_2,
     },
     {
       testimonial:
@@ -192,64 +175,73 @@ import {
       name: "Lisa Wang",
       designation: "CTO",
       company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      image: twitter_3,
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "e-Commerce",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "An e-commerce platform that allows users to sign-in to the app, shop different categories, add items to cart, vist the cart, view cart summary, pay with stripe",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "redux",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "firebase",
           color: "pink-text-gradient",
         },
+        {
+          name: "stripe",
+          color: "blue-text-gradient",
+        },
+
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: crownClothing,
+      source_code_link: "https://github.com/jainKinjal02/crownClothing",
     },
     {
-      name: "Job IT",
+      name: "Recipe Guide",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A dynamic JavaScript application developed with the Model-View-Controller (MVC) architecture, offering users a comprehensive platform to explore, contribute, and manage their favorite recipes",
+      tags: [
+        {
+          name: "vanillaJs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "mvc-architecture",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: forkify,
+      source_code_link: "https://github.com/jainKinjal02/forkify-source-code-master",
+    },
+    {
+      name: "Little Lemon",
+      description:
+        "A restaurant web application designed to enhance the online presence and user experience for the restaurant. The primary features include a landing page, a table reservation system, and showcasing customer reviews",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
+          name: "hooks",
           color: "green-text-gradient",
         },
         {
@@ -257,8 +249,60 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: littleLemon,
+      source_code_link: "https://github.com/jainKinjal02/littleLemonReactWebApp",
+    },
+    {
+      name: "Mapty",
+      description:
+        "A web application to log workout at different locations on map, demonstrating the use of JavaScript Leaflet library and geolocation API",
+      tags: [
+        {
+          name: "vanillaJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "leaflet-library",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "geolocation-API",
+          color: "green-text-gradient",
+        },
+
+      ],
+      image: mapty,
+      source_code_link: "https://github.com/jainKinjal02/Mapty",
+    },
+
+    {
+      name: "Messaging App",
+      description:
+        "A comprehensive messaging application where users can login, search another user, chat with him, view the chat history.",
+      tags: [
+        {
+          name: "reactJs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "redux",
+          color: "green-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: hiThere,
+      source_code_link: "https://github.com/jainKinjal02/messagerApp",
     },
   ];
   

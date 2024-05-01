@@ -44,8 +44,8 @@ const About = () => {
       >
         I'm a skilled front end developer with experience in JavaScript, 
         HTML, CSS and expertise in frameworks like React, Angular, Ionic, 
-        Node.js and Three.js. I'm a quick learner and collaborate closely with clients to create efficient, scalable and user friendly
-        solutions that solve real-worls problems. Let's work together to bring your ideas to life!
+        Node.js. I'm a quick learner and collaborate closely with clients to create efficient, scalable and user friendly
+        solutions that solve real-world problems. <br/>Let's work together to bring your ideas to life!
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index)=> (
