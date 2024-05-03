@@ -17,7 +17,7 @@ return (
                 speed: 450
               }}
               className="bg-tertiary p-5 rounded-2xl
-                  sm:w-[300px] w-full">
+                  sm:w-[360px] w-full">
                     <div className="relative w-full h-[230px]">
                         <img src={image}
                           alt={name}
@@ -82,4 +82,4 @@ const Works = () => {
   )
 }
 
-export default SectionWrapper(Works, "")
+export default SectionWrapper(Works, "projects")

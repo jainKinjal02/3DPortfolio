@@ -6,7 +6,6 @@ import { staggerContainer } from '../utils/motion';
 
 const SectionWrapper = (Component, idName) => {
     console.log('inside section wrapper');
-    console.log(Component);
     console.log(idName);
     
     const HOC = () => (
