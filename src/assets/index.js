@@ -39,6 +39,8 @@ import bitbucket from './tech/bitbucket.png';
 import twitter_1 from './twitter-1.png'
 import twitter_2 from './twitter-2.png'
 import twitter_3 from './twitter-3.png'
+import metaverse from './metaverse.png';
+
 
 
 export {
@@ -79,5 +81,6 @@ export {
   bitbucket,
   twitter_1,
   twitter_2,
-  twitter_3
+  twitter_3,
+  metaverse
 };

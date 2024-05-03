@@ -28,7 +28,8 @@ import {
     angular,
     twitter_1,
     twitter_2,
-    twitter_3
+    twitter_3,
+    metaverse
   } from "../assets";
   
   export const navLinks = [
@@ -180,6 +181,33 @@ import {
   ];
   
   const projects = [
+        
+    {
+      name: "metaverse",
+      description:
+        "A landing page of metaverse site created using next.Js, tailwindcss and framer motion following an online figma design",
+      tags: [
+        {
+          name: "next.JS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "react",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "framer-motion",
+          color: "blue-text-gradient",
+        },
+
+      ],
+      image: metaverse,
+      source_code_link: "https://github.com/jainKinjal02/metaverusLandingPage",
+    },
     {
       name: "e-Commerce",
       description:
