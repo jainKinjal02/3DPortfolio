@@ -4,11 +4,11 @@ import {styles} from '../styles';
 import { github } from '../assets';
 import {SectionWrapper} from '../hoc';
 import {projects} from '../constants';
-import {fadeIn, textVariant} from '../utils/motion';
+import {fadeInw, textVariantw} from '../utils/motion';
 
 const ProjectCard = ({index, name, description, tags,image,source_code_link}) =>{
 return (
-  <motion.div variants={fadeIn("up","spring",
+  <motion.div variants={fadeInw("up","spring",
           index * 0.5, 0.75)}  >
             <Tilt
               options={{
@@ -54,14 +54,14 @@ return (
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={textVariantw()}>
         <p className={styles.sectionSubText}>My work</p>
         <h2 className={styles.sectionHeadText}>Projects</h2>
       </motion.div>
 
       <div className="w-full flex">
         <motion.p
-           variants={fadeIn("", "",0.1,1)}
+           variants={fadeInw("", "",0.1,1)}
            className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]" >
             Following projects showcases my skills and experience through real-world examples
             of my work. Each project is briefly described with links to code repos and live demos in it.

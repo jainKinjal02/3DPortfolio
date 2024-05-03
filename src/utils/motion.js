@@ -15,6 +15,20 @@ export const textVariant = (delay) => {
       },
     };
   };
+
+  export const textVariantw = (delay) => {
+    return {
+      show: {
+        y: 0,
+        opacity: 1,
+        transition: {
+          type: "spring",
+          duration: 1.25,
+          delay: delay,
+        },
+      },
+    };
+  };
   
   export const fadeIn = (direction, type, delay, duration) => {
     return {
@@ -37,6 +51,22 @@ export const textVariant = (delay) => {
     };
   };
   
+  export const fadeInw = (direction, type, delay, duration) => {
+    return {
+      show: {
+        x: 0,
+        y: 0,
+        opacity: 1,
+        transition: {
+          type: type,
+          delay: delay,
+          duration: duration,
+          ease: "easeOut",
+        },
+      },
+    };
+  };
+
   export const zoomIn = (delay, duration) => {
     return {
       hidden: {
