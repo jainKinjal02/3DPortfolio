@@ -207,6 +207,7 @@ import {
       ],
       image: metaverse,
       source_code_link: "https://github.com/jainKinjal02/metaverusLandingPage",
+      live_demo_link: "https://metaverus-landing-page.vercel.app"
     },
     {
       name: "e-Commerce",
@@ -233,6 +234,7 @@ import {
       ],
       image: crownClothing,
       source_code_link: "https://github.com/jainKinjal02/crownClothing",
+      live_demo_link: "https://voluble-sprinkles-1912d4.netlify.app"
     },
     {
       name: "Recipe Guide",
@@ -258,6 +260,7 @@ import {
       ],
       image: forkify,
       source_code_link: "https://github.com/jainKinjal02/forkify-source-code-master",
+      live_demo_link: "https://ornate-vacherin-49e918.netlify.app/"
     },
     {
       name: "Little Lemon",
@@ -279,6 +282,7 @@ import {
       ],
       image: littleLemon,
       source_code_link: "https://github.com/jainKinjal02/littleLemonReactWebApp",
+      live_demo_link: "https://curious-bunny-a1f6c5.netlify.app/"
     },
     {
       name: "Mapty",
@@ -309,6 +313,7 @@ import {
       ],
       image: mapty,
       source_code_link: "https://github.com/jainKinjal02/Mapty",
+      live_demo_link: "https://flourishing-stardust-de561e.netlify.app/"
     },
 
     {
@@ -331,7 +336,9 @@ import {
       ],
       image: hiThere,
       source_code_link: "https://github.com/jainKinjal02/messagerApp",
+      live_demo_link: "https://lively-basbousa-fccd9d.netlify.app"
     },
+    
   ];
   
   export { services, technologies, experiences, testimonials, projects };

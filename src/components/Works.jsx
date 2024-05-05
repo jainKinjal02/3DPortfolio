@@ -6,10 +6,10 @@ import {SectionWrapper} from '../hoc';
 import {projects} from '../constants';
 import {fadeInw, textVariantw} from '../utils/motion';
 
-const ProjectCard = ({index, name, description, tags,image,source_code_link}) =>{
+const ProjectCard = ({index, name, description, tags,image,source_code_link, live_demo_link}) =>{
 return (
   <motion.div variants={fadeInw("up","spring",
-          index * 0.5, 0.75)}  >
+          index * 0.5, 0.75)}  onClick={()=> window.open(live_demo_link,"_blank")}>
             <Tilt
               options={{
                 max: 45,
@@ -17,7 +17,7 @@ return (
                 speed: 450
               }}
               className="bg-tertiary p-5 rounded-2xl
-                  sm:w-[360px] w-full">
+                  sm:w-[360px] w-full cursor-pointer">
                     <div className="relative w-full h-[230px]">
                         <img src={image}
                           alt={name}
@@ -46,7 +46,7 @@ return (
                         </p>
                       ))}
                     </div>
-            </Tilt>
+            </Tilt>  
   </motion.div>
 )
 }
