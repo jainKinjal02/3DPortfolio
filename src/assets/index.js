@@ -38,7 +38,7 @@ import ionic from './tech/ionic.png';
 import bitbucket from './tech/bitbucket.png';
 import twitter_1 from './twitter-1.png'
 import twitter_2 from './twitter-2.png'
-import twitter_3 from './twitter-3.png'
+import twitter_3 from './twitter-4.jpg';
 import metaverse from './metaverse.png';
 
 
