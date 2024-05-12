@@ -40,6 +40,7 @@ import twitter_1 from './twitter-1.png'
 import twitter_2 from './twitter-2.png'
 import twitter_3 from './twitter-4.jpg';
 import metaverse from './metaverse.png';
+import spotify from './spotify-clone.png';
 
 
 
@@ -82,5 +83,6 @@ export {
   twitter_1,
   twitter_2,
   twitter_3,
-  metaverse
+  metaverse,
+  spotify
 };

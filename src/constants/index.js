@@ -29,7 +29,8 @@ import {
     twitter_1,
     twitter_2,
     twitter_3,
-    metaverse
+    metaverse,
+    spotify
   } from "../assets";
   
   export const navLinks = [
@@ -181,7 +182,29 @@ import {
   ];
   
   const projects = [
-        
+
+       {
+      name: "spotifyClone",
+      description:
+        "Spotify clone where user can play top tracks, play next and previous songs, pause if they want",
+      tags: [
+        {
+          name: "react.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "redux",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        }
+      ],
+      image: spotify,
+      source_code_link: "https://github.com/jainKinjal02/spotifyClone",
+      live_demo_link: "https://spotify-clone-topaz-mu.vercel.app/"
+    },    
     {
       name: "metaverse",
       description:
