@@ -30,7 +30,8 @@ import {
     twitter_2,
     twitter_3,
     metaverse,
-    spotify
+    spotify,
+    aboutMe
   } from "../assets";
   
   export const navLinks = [
@@ -206,9 +207,9 @@ import {
       live_demo_link: "https://spotify-clone-topaz-mu.vercel.app/"
     },    
     {
-      name: "metaverse",
+      name: "aboutMe",
       description:
-        "A landing page of metaverse site created using next.Js, tailwindcss and framer motion following an online figma design",
+        "A landing page describing me, my creations, when I am not behind the desk",
       tags: [
         {
           name: "next.JS",
@@ -228,9 +229,9 @@ import {
         },
 
       ],
-      image: metaverse,
-      source_code_link: "https://github.com/jainKinjal02/metaverusLandingPage",
-      live_demo_link: "https://metaverus-landing-page.vercel.app"
+      image: aboutMe,
+      source_code_link: "https://github.com/jainKinjal02/aboutMe",
+      live_demo_link: "https://about-me-delta-jet.vercel.app"
     },
     {
       name: "e-Commerce",
