@@ -31,7 +31,8 @@ import {
     twitter_3,
     metaverse,
     spotify,
-    aboutMe
+    aboutMe,
+    shopTshirt
   } from "../assets";
   
   export const navLinks = [
@@ -183,6 +184,28 @@ import {
   ];
   
   const projects = [
+      {
+        name: "customizeYourTshirt",
+        description:
+        "A react app that helps you to view a product in 3D and customize it accordingly",
+        tags: [
+          {
+            name: "threeJs",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "react.js",
+            color: "green-text-gradient",
+          },
+          {
+            name: "tailwind",
+            color: "pink-text-gradient",
+          }
+        ],
+        image: shopTshirt,
+        source_code_link: "https://github.com/jainKinjal02/productShopWithAI",
+        live_demo_link: "https://product-shop-with-customization.vercel.app/"
+      },
 
        {
       name: "spotifyClone",
