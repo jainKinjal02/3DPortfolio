@@ -21,6 +21,7 @@ import {
     hiThere,
     littleLemon,
     crownClothing,
+    iphone,
 
     threejs,
     bitbucket,
@@ -207,6 +208,31 @@ import {
         live_demo_link: "https://product-shop-with-customization.vercel.app/"
       },
 
+      {
+        name: "shopIphone",
+        description: " a landing page for Apple to shop iPhone with animations",
+        tags: [
+          {
+            name: "threeJs",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "gsap",
+            color: "pink-text-gradient"
+          },
+          {
+            name: "react",
+            color: "green-text-gradient",
+          },
+          {
+            name: "tailwind",
+            color: "pink-text-gradient",
+          }
+        ],
+        image: iphone,
+        source_code_link: "https://github.com/jainKinjal02/buyIPhone",
+        live_demo_link: "https://shop-iphone-ashy.vercel.app/"
+      },
        {
       name: "spotifyClone",
       description:

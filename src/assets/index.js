@@ -43,6 +43,7 @@ import metaverse from './metaverse.png';
 import spotify from './spotify-clone.png';
 import aboutMe from './aboutMe.png';
 import shopTshirt from './shopProduct.png';
+import iphone from './iphone.png';
 
 
 
@@ -88,5 +89,6 @@ export {
   metaverse,
   spotify,
   aboutMe,
-  shopTshirt
+  shopTshirt,
+  iphone
 };
