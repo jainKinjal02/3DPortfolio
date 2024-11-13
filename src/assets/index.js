@@ -38,13 +38,11 @@ import angular from './tech/angular.png';
 import ionic from './tech/ionic.png';
 import bitbucket from './tech/bitbucket.png';
 import twitter_1 from './twitter-1.png'
-import twitter_2 from './twitter-2.jpg'
+import twitter_2 from './twitter-2.png'
 import twitter_3 from './twitter-4.jpg';
 import metaverse from './metaverse.png';
 import spotify from './spotify-clone.png';
 import aboutMe from './aboutMe.png';
-import shopTshirt from './shopProduct.png';
-import iphone from './iphone.png';
 
 
 
@@ -90,6 +88,5 @@ export {
   metaverse,
   spotify,
   aboutMe,
-  shopTshirt,
-  iphone
+  parallax
 };
